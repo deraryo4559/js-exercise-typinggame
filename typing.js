@@ -1,6 +1,6 @@
-const typeSound = new Audio("./audio/typing-sound.mp3");
-const wrongSound = new Audio("./audio/wrong.mp3");
-const correctSound = new Audio("./audio/correct.mp3");
+const typeSound = new Audio("./typing-sound.mp3");
+const wrongSound = new Audio("./wrong.mp3");
+const correctSound = new Audio("./correct.mp3");
 let inputText = document.getElementById("input-text");
 let i = 0;
 
