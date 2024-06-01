@@ -1,0 +1,61 @@
+body {
+  background-color: black;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.conut-header {
+  height: 100px;
+  width: 50vw;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: white;
+}
+
+.typing-box {
+  background-color: #20c736;
+  height: 60vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.typing-content {
+  margin-top: 50px;
+  width: 80%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow-wrap: anywhere;
+  
+}
+
+.typing-content h2 {
+  margin-left: 25px;
+  margin-right: 25px;
+  font-size: 1.5rem;
+}
+
+.typing-input {
+  margin-top: 25px;
+  width: 80%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.text-box {
+  width: 100%;
+  height: 70%;
+  font-size: 2rem;
+}
